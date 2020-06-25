@@ -42,7 +42,7 @@ public class PokerGameTest {
     public static boolean expectedResult5(){
         boolean r_isPass = false;
         PokerGame pg = new PokerGame();
-        String tempPokers = "Black: 2H 3D 5S 9C KD White: 2D 3H 5C 9S KH";
+        String tempPokers = "Black: 2D 3H 5C 9S KH White: 2D 3H 5C 9S KH";
         String tempResult = pg.compare(tempPokers);
         if(tempResult.equals("Tie")){
             r_isPass = true;
